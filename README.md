@@ -18,5 +18,10 @@ If you are willing to add more people into the whitelist, the best way to do tha
 
 If you want to add more people to 1 IP address, you can add another boolean in the first if statement and replace USERNAME with another username. For example: `if (event.getName().equalsIgnoreCase("Player1") || event.getName().equalsIgnoreCase("Player2"))`. You can add as much as you want.
 
+## Adding multiple IP's to 1 or more users
+If a user has multiple networks or maybe has a private VPN they use sometimes, you can add checks to see if they are connecting through 1 ip or another. It nearly works the same as adding more people.
+
+In the second if statement, you can copy & paste the check, filling the new one with another ip. For example: `if (!event.getAddress().getHostAddress().equalsIgnoreCase("1.1.1.1") || !event.getAddress().getHostAddress().equalsIgnoreCase("2.2.2.2"))`. You can add as much as you want.
+
 # Miscellaneous
 I got this idea from a server called "Mineberry". They have a similar plugin that works the same. If you wanna see for yourselves, visit `play.mineberry.net` with the name `Keksik9000`.
