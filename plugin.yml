@@ -1,0 +1,9 @@
+name: IPLink
+main: xlz.protect.IPLink
+version: 1.0
+api-version: 1.13
+commands:
+  iplink:
+    description: About the plugin.
+    usage: /<command>
+    aliases: iplinkplugin
