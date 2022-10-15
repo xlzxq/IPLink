@@ -17,3 +17,6 @@ Note that you'll need to compile as a non-runnable JAR file afterwards.
 If you are willing to add more people into the whitelist, the best way to do that is to copy the entire line code in method `onPlayerJoin(AsyncPlay... event)` and paste it, then filling it with new information.
 
 If you want to add more people to 1 IP address, you can add another boolean in the first if statement and replace USERNAME with another username. For example: `if (event.getName().equalsIgnoreCase("Player1") || event.getName().equalsIgnoreCase("Player2"))`. You can add as much as you want.
+
+# Miscellaneous
+I got this idea from a server called "Mineberry". They have a similar plugin that works the same. If you wanna see for yourselves, visit `play.mineberry.net` with the name `Keksik9000`.
